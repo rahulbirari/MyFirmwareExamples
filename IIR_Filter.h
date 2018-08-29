@@ -2,7 +2,7 @@
  * IIR_Filter.h
  *
  *  Created on: Jul 24, 2018
- *      Author: birarirx
+ *      Author: Rahul Birari
  */
 
 #ifndef IIR_FILTER_H_

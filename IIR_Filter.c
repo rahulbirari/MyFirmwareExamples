@@ -12,13 +12,12 @@
 //
 // 4th Order Sallen Key IIR Filters
 //
-//Low Pass Filter
-//
+//Low Pass Filter | Cut-off  : Wn = 0.44
 //    Y(z)        0.1689 + 0.6757 z^-1 + 1.014 z^-2 + 0.6757 z^-3 + 0.1689 z^-4
 //  -------  =  ----------------------------------------------------------------
 //    X(z)         1 + 0.6692 z^-1 + 0.7732 z^-2 + 0.1967 z^-3 + 0.06386 z^-4
 //
-//High Pass Filter
+//High Pass Filter | Cut-off  : Wn = 0.16
 //
 //    Y(z)         0.26 z^4 - 1.04 z^3 + 1.56 z^2 - 1.04 z + 0.26
 //  -------  =  ----------------------------------------------------
@@ -27,7 +26,7 @@
 // LPF and HPF above are digitized using Tustin method to obtain digital domain
 // transfer function  and  difference equation is realized using  the following
 // form. Please note filter coefficients in the digital form dependent  on  the
-// sampling frequency. Here, sampling frequency is 250kHz.
+// sampling frequency. Here, sampling frequency is 250kHz.Wn=Wcut-off/Wsampling
 //
 // Digital Implementation Direct Form - 2 (Canonical Form) Structure
 //

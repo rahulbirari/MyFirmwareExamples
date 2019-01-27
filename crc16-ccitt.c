@@ -2,7 +2,7 @@
 * crc16afci.c
 *
 *  Created on: Jan 17, 2019
-*      Author: birarirx
+*      Author: Rahul B.
 */
 
 //---------------------------------------------------------------
